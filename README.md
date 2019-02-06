@@ -1,11 +1,17 @@
 # Zabbix-SNMPv3-Template
 Zabbix template for LLD SNMPv3 Cisco network devices (switches and routers) with authentication and AES/DES encryption.
 
+
 Template use next macros:
-{$SNMP_V3_CONTEXTNAME}  context name
-{$SNMP_V3_SECURITYNAME}  security name
-{$SNMP_V3_AUTHPASSPHRASE}  authentication password
-{$SNMP_V3_PRIVPASSPHRASE}  private password
+
+{$SNMP_V3_CONTEXTNAME} - context name.
+
+{$SNMP_V3_SECURITYNAME} - security name.
+
+{$SNMP_V3_AUTHPASSPHRASE} - authentication password.
+
+{$SNMP_V3_PRIVPASSPHRASE} - private password.
+
 
 Template has two version: for AES and DES encryption. There is localization Russian version for both too. 
 
@@ -42,12 +48,15 @@ Template content:
   - admin status of interface
   - operational status of interface
   - VLAN/trunk of interface
+   
 - 3 triggers:
  * CPU high load of network item
  * Memory high load of network item
  * Temperature very high of network item
+ 
 - 1 graphic:
  * CPU and memory average load
+ 
 - 1 discovery rule for:
  * 8 element item prototypes
   -- Admin status of interface
@@ -58,8 +67,10 @@ Template content:
   -- Operational status of interface
   -- Outbound errors on interface
   -- Outgoing traffic on interface
+  
  * 2 triggers prototypes
   -- Inbound errors host on interface
   -- Outbound errors host on interface
+  
  * 1 graphic prototype:
   -- Traffic of interface
