@@ -2,10 +2,10 @@
 Zabbix template for LLD SNMPv3 Cisco network devices (switches and routers) with authentication and AES/DES encryption.
 
 Template use next macros:
-{$SNMP_V3_CONTEXTNAME} - context name
-{$SNMP_V3_SECURITYNAME} - security name
-{$SNMP_V3_AUTHPASSPHRASE} - authentication password
-{$SNMP_V3_PRIVPASSPHRASE} - private password
+{$SNMP_V3_CONTEXTNAME}  context name
+{$SNMP_V3_SECURITYNAME}  security name
+{$SNMP_V3_AUTHPASSPHRASE}  authentication password
+{$SNMP_V3_PRIVPASSPHRASE}  private password
 
 Template has two version: for AES and DES encryption. There is localization Russian version for both too. 
 
