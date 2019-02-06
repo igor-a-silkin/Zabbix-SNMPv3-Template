@@ -34,7 +34,7 @@ It work with next Cisco routers on AES encryption:
 - 2811
 
 Template content:
-- 4 element item:
+- 4 element items:
  * temperature
  * CPU average load (5 min)
  * free memory
@@ -58,7 +58,7 @@ Template content:
  * CPU and memory average load
  
 - 1 discovery rule for:
- * 8 element item prototypes
+ * 8 element items prototypes
   -- Admin status of interface
   -- Alias of interface
   -- Description of interface
